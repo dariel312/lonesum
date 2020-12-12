@@ -1,0 +1,10 @@
+.bottombar {
+    background-color: white;
+    border-color: #e0e0e0 white white white;
+    border-width: 1;
+}
+
+.bar-btn {
+    android-elevation: 0;
+    margin: 0;
+}

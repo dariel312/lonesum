@@ -1,0 +1,10 @@
+<ScrollView orientation="vertical">
+    <WrapLayout (loaded)="onLoadedView($event)">
+
+        <StackLayout *ngFor="let n of list" [width]="profileItemSize" [height]="profileItemSize"
+            [style.background-image]="n.coverImgUrl" (tap)="clickProfile(n)" class="profile-item">
+            <Label [text]="n.name"></Label>
+        </StackLayout>
+
+    </WrapLayout>
+</ScrollView>
